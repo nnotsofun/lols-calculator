@@ -15,10 +15,10 @@ export interface IMortgageCalculatorInputs {
     // feesFrequency: RepaymentFrequencies;
 }
 
-const frequencyMap = {
-    [RepaymentFrequencies.Monthly]: 1,
-    [RepaymentFrequencies.Weekly]: 1,
-}
+// const frequencyMap = {
+//     [RepaymentFrequencies.Monthly]: 1,
+//     [RepaymentFrequencies.Weekly]: 1,
+// }
 
 
 export interface MortageCalculation {

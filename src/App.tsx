@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import { mortageCalculator } from "./calculations/mortagageCalculator";
 import { dollarFormatter } from "./utilities/dollarFormatter";
-import { clubMed, iceCream, oasis, taytay } from "./imageSources";
+import { clubMed, iceCream, oasis } from "./imageSources";
 
 function App() {
   // const [count, setCount] = useState(0);'
@@ -12,7 +10,7 @@ function App() {
   const [monthlyInterestRate, setMonthlyInterestRate] = useState(0);
   const [lengthOfLoanYears, setLengthOfLoanYears] = useState(0);
 
-  const [costOfClubMed, setCostOfClubMed] = useState(8000);
+  // const [costOfClubMed, setCostOfClubMed] = useState(8000);
 
   const calculatedMortage = mortageCalculator({
     amountBorrowed,
